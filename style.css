@@ -61,5 +61,12 @@ ul{
 }
 .navLink:hover{
     cursor: pointer;
-    color:hsl(0, 0%, 20%)
+    color:#4E95D9
+}
+#secondaryNav{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #4E95D9;
 }
