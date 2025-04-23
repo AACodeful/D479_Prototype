@@ -35,3 +35,31 @@ header{
     margin-bottom: 2rem;
     font-style: italic;
 }
+#nav{
+    background-color:#72C9F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 4rem;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navLink{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2rem;
+    color: #676767;
+}
+.navLink:hover{
+    cursor: pointer;
+    color:hsl(0, 0%, 20%)
+}
