@@ -116,3 +116,15 @@ ul{
     text-align: center;
     margin-top: 2rem;
 }
+footer{
+    background-color:#72C9F7;
+    color:#676767;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
