@@ -70,3 +70,36 @@ ul{
     font-weight: bold;
     color: #4E95D9;
 }
+#bodyContainer{
+    display: flex;
+    margin: 0rem 2rem 2rem 2rem;
+}
+.col{
+    flex: 1;
+    padding: 10px;
+}
+#textContainer{
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+#photoContainer{
+    flex: 0 0 30%;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#photoContainer img{
+    width: auto;
+    height: 15rem;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 5rem;
+}
+.textBox{
+    background-color: #676767;
+    text-align: center;
+    margin-top: 2rem;
+}
