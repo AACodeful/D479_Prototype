@@ -41,7 +41,7 @@
           <h1>Contact Us!</h1>
         </div>
 
-          <div class="textBox"><form>
+          <div class="textBox"><form id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required/></br>
             <label for="country">Country:</label>
@@ -52,9 +52,16 @@
             <textarea id="message" name="message" ></textarea></br>
             <button type="submit">Send Message</button>
             </form>
+            <p id="formStatus" style="color: green; font-weight: bold;"></p>
           </div>
     <footer id="contactPage">
       <p>© 2025 Island of Taniti. All rights reserved.</p>
     </footer>
+    <script>
+      document.getElementById("contactForm").addEventListener("submit", function(e) {
+        e.preventDefault(); // Prevents the form from actually submitting and refreshing the page
+        document.getElementById("formStatus").textContent = "Form submitted";
+      });
+    </script>
   </body>
 </html>
